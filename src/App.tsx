@@ -328,12 +328,18 @@ function App() {
       <footer className='border-t border-gray-800/50 py-12'>
         <div className='max-w-6xl mx-auto px-6'>
           <div className='flex flex-col md:flex-row justify-between items-center'>
-            <div className='flex items-center gap-2 mb-4 md:mb-0'>
-              <div className='w-8 h-8 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center'>
-                <Flame className='w-5 h-5 text-white' />
+            <a
+              href='https://chromewebstore.google.com/detail/leetdaily/kpmmlpoonleloofchbbfnmicchmhehcf'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <div className='flex items-center gap-2 mb-4 md:mb-0'>
+                <div className='w-8 h-8 bg-gradient-to-br from-orange-500 to-red-500 rounded-lg flex items-center justify-center'>
+                  <Flame className='w-5 h-5 text-white' />
+                </div>
+                <span className='text-xl font-bold text-white'>LeetDaily</span>
               </div>
-              <span className='text-xl font-bold text-white'>LeetDaily</span>
-            </div>
+            </a>
 
             <div className='flex items-center gap-6'>
               <a
