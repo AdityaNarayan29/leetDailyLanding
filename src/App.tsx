@@ -12,6 +12,7 @@ import {
   Users,
   Star,
   Linkedin,
+  Globe,
 } from "lucide-react";
 
 function App() {
@@ -339,7 +340,7 @@ function App() {
                 href='https://adityanarayan.co.in/'
                 className='text-gray-400 hover:text-white transition-colors duration-300 flex items-center gap-2'
               >
-                <Github className='w-5 h-5' />
+                <Globe className='w-5 h-5' />
                 <span>Portfolio</span>
               </a>
               <a
